@@ -43,19 +43,19 @@ if ( ! function_exists( 'qsm_theme_quiz_companion_style' ) ) {
 		$get_theme_settings     = $color_data;
 		$css_root           = ':root {';
 		if ( isset( $get_theme_settings['background_color'] ) && '' !== $get_theme_settings['background_color'] ) {
-			$css_root .= '--background-color: ' . $get_theme_settings['background_color'] . ' !important;';
+			$css_root .= '--companion-background-color: ' . $get_theme_settings['background_color'] . ' !important;';
 		}
 		if ( isset( $get_theme_settings['primary_color'] ) && '' !== $get_theme_settings['primary_color'] ) {
-			$css_root .= '--primary-color: ' . $get_theme_settings['primary_color'] . ' !important;';
+			$css_root .= '--companion-primary-color: ' . $get_theme_settings['primary_color'] . ' !important;';
 		}
 		if ( isset( $get_theme_settings['secondary_color'] ) && '' !== $get_theme_settings['secondary_color'] ) {
-			$css_root .= '--secondary-color: ' . $get_theme_settings['secondary_color'] . ' !important;';
+			$css_root .= '--companion-secondary-color: ' . $get_theme_settings['secondary_color'] . ' !important;';
 		}
 		if ( isset( $get_theme_settings['title_color'] ) && '' !== $get_theme_settings['title_color'] ) {
-			$css_root .= '--title-color: ' . $get_theme_settings['title_color'] . ' !important;';
+			$css_root .= '--companion-title-color: ' . $get_theme_settings['title_color'] . ' !important;';
 		}
 		if ( isset( $get_theme_settings['text_color'] ) && '' !== $get_theme_settings['text_color'] ) {
-			$css_root .= '--text-color: ' . $get_theme_settings['text_color'] . ' !important;';
+			$css_root .= '--companion-text-color: ' . $get_theme_settings['text_color'] . ' !important;';
 		}
 		$css_root .= '}';
 		if ( isset( $get_theme_settings['primary_color'] ) && '' !== $get_theme_settings['primary_color'] ) {

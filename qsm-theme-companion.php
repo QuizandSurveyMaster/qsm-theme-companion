@@ -114,7 +114,7 @@ class QSM_Theme_Companion {
 			'id'      => 'background_color',
 			'label'   => __( 'Background Color', 'qsm-companion' ),
 			'type'    => 'color',
-			'default' => '#FFF',
+			'default' => '#ffffff',
 		);
 		$settings[] = array(
 			'id'      => 'primary_color',
@@ -126,7 +126,7 @@ class QSM_Theme_Companion {
 			'id'      => 'secondary_color',
 			'label'   => __( 'Secondary Color', 'qsm-companion' ),
 			'type'    => 'color',
-			'default' => '#fff',
+			'default' => '#ffffff',
 		);
 		$settings[] = array(
 			'id'      => 'title_color',
