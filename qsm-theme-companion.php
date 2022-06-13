@@ -2,7 +2,7 @@
 /**
  * Plugin Name: QSM Theme - Companion
  * Plugin URI: https://quizandsurveymaster.com
- * Description: Adds Companion for Quiz Master Quizzes
+ * Description: Free quiz theme for Quiz & Survey Master plugin
  * Author: QSM Team
  * Author URI: https://quizandsurveymaster.com
  * Version: 1.0.0
